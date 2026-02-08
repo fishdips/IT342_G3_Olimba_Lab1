@@ -1,8 +1,14 @@
+import { Link } from 'react-router-dom'
+
 export default function Home() {
   return (
-    <section>
-      <h2>Home</h2>
-      <p>Welcome to the app. Use the navigation to sign in or register.</p>
+    <section className="page">
+      <h2>Welcome</h2>
+      <p>Choose an action to continue.</p>
+      <div className="actions">
+        <Link className="button" to="/login">Log in</Link>
+        <Link className="button" to="/register">Register</Link>
+      </div>
     </section>
   )
 }

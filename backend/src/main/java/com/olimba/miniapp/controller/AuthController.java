@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:3000") //for react frontend, add ni nato later
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3000"})
 public class AuthController {
 
     private final UserService userService;
@@ -18,21 +18,33 @@ public class AuthController {
 
     @PostMapping("/register")
     public ResponseEntity<?> register(@RequestBody UserEntity user) {
-        return ResponseEntity.ok(userService.registerUser(user));
+        if (userService.findByEmail(user.getEmail()) != null) {
+            return ResponseEntity.status(409).body("Email already exists");
+        }
+        UserEntity saved = userService.registerUser(user);
+        return ResponseEntity.ok(sanitize(saved));
     }
 
     @PostMapping("/login")
     public ResponseEntity<?> login(@RequestBody UserEntity loginRequest) {
         UserEntity user = userService.findByEmail(loginRequest.getEmail());
         if (user != null && userService.checkPassword(loginRequest.getPassword(), user.getPassword())) {
-            return ResponseEntity.ok(user); // In a real app, return a JWT token here
+            return ResponseEntity.ok(sanitize(user)); 
         }
         return ResponseEntity.status(401).body("Invalid credentials");
     }
 
     @GetMapping("/me")
     public ResponseEntity<?> getCurrentUser(@RequestParam String email) {
-        // Simplified for Lab 1; usually uses SecurityContext
-        return ResponseEntity.ok(userService.findByEmail(email));
+        return ResponseEntity.ok(sanitize(userService.findByEmail(email)));
+    }
+
+    private UserEntity sanitize(UserEntity user) {
+        if (user == null) return null;
+        UserEntity safe = new UserEntity();
+        safe.setId(user.getId());
+        safe.setEmail(user.getEmail());
+        safe.setFullName(user.getFullName());
+        return safe;
     }
 }

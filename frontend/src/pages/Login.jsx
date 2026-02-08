@@ -22,16 +22,28 @@ export default function Login() {
   }
 
   return (
-    <section>
+    <section className="page">
       <h2>Login</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Email</label>
-          <input value={email} onChange={(e) => setEmail(e.target.value)} />
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="field">
+          <label htmlFor="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
         </div>
-        <div>
-          <label>Password</label>
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <div className="field">
+          <label htmlFor="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
         </div>
         <button type="submit">Sign in</button>
       </form>

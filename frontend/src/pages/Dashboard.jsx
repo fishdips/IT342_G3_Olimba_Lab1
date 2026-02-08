@@ -8,7 +8,7 @@ export default function Dashboard() {
   useEffect(() => {
     const u = getStoredUser()
     if (!u) navigate('/login')
-  }, [])
+  }, [navigate])
 
   function logout() {
     clearStoredUser()
@@ -16,12 +16,14 @@ export default function Dashboard() {
   }
 
   return (
-    <section>
-      <h2>Dashboard</h2>
+    <section className="page">
+      <div className="page-header">
+        <h2>Dashboard</h2>
+        <button className="ghost" onClick={logout}>Log out</button>
+      </div>
       <p>This is a placeholder dashboard. Add widgets or data here.</p>
-      <div>
+      <div className="actions">
         <button onClick={() => navigate('/profile')}>Go to profile</button>
-        <button onClick={logout}>Logout</button>
       </div>
     </section>
   )

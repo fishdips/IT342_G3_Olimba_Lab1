@@ -23,20 +23,38 @@ export default function Register() {
   }
 
   return (
-    <section>
+    <section className="page">
       <h2>Register</h2>
-      <form onSubmit={handleSubmit}>
-        <div>
-          <label>Full name</label>
-          <input value={fullName} onChange={(e) => setFullName(e.target.value)} />
+      <form className="form" onSubmit={handleSubmit}>
+        <div className="field">
+          <label htmlFor="fullName">Full name</label>
+          <input
+            id="fullName"
+            value={fullName}
+            onChange={(e) => setFullName(e.target.value)}
+            required
+          />
         </div>
-        <div>
-          <label>Email</label>
-          <input value={email} onChange={(e) => setEmail(e.target.value)} />
+        <div className="field">
+          <label htmlFor="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
         </div>
-        <div>
-          <label>Password</label>
-          <input type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
+        <div className="field">
+          <label htmlFor="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            minLength={6}
+            required
+          />
         </div>
         <button type="submit">Create account</button>
       </form>

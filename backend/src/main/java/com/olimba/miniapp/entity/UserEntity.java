@@ -17,7 +17,6 @@ public class UserEntity {
 
     private String fullName;
 
-    // Constructors, getters, setters, etc.
     public UserEntity() {
     }
 
