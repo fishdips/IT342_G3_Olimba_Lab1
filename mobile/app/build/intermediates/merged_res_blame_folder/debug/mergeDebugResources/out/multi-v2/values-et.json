@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.miniapp-mergeDebugResources-33:/values-et/values-et.xml",
+            "outputFile": "com.example.miniapp-mergeDebugResources-34:/values-et/values-et.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\L13Y12W31\\.gradle\\caches\\transforms-3\\faeaa1ddf4cfdd2aa2c99aa9b0b51333\\transformed\\core-1.17.0\\res\\values-et\\values-et.xml",
+                    "source": "C:\\Users\\L13Y12W31\\.gradle\\caches\\transforms-3\\c65ea0e08afae80a4e77fe507779d736\\transformed\\core-1.13.1\\res\\values-et\\values-et.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

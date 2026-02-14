@@ -3,24 +3,24 @@
 3    package="com.example.miniapp.test" >
 4
 5    <uses-sdk
-5-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:5:5-74
+5-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:5:5-74
 6        android:minSdkVersion="24"
-6-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:5:15-41
+6-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:5:15-41
 7        android:targetSdkVersion="34" />
-7-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:5:42-71
+7-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:5:42-71
 8
 9    <instrumentation
-9-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:11:5-15:69
+9-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:11:5-15:69
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:11:22-76
+10-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:11:22-76
 11        android:functionalTest="false"
-11-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:14:22-52
+11-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:14:22-52
 12        android:handleProfiling="false"
-12-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:13:22-53
+12-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:13:22-53
 13        android:label="Tests for com.example.miniapp"
-13-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:15:22-67
+13-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:15:22-67
 14        android:targetPackage="com.example.miniapp" />
-14-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:12:22-65
+14-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:12:22-65
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.7.0] C:\Users\L13Y12W31\.gradle\caches\transforms-3\8fa58daea9dfb0a48c2432236c68b36d\transformed\core-1.7.0\AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:7:5-9:19
+24-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:8:9-60
-27-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest17292546014118458313.xml:8:23-57
+27-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:8:9-60
+27-->D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest2796308952627389058.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.7.0] C:\Users\L13Y12W31\.gradle\caches\transforms-3\8fa58daea9dfb0a48c2432236c68b36d\transformed\core-1.7.0\AndroidManifest.xml:27:9-34:20
