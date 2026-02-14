@@ -3756,6 +3756,7 @@ int id bounce 0x7f080065
 int id bounceBoth 0x7f080066
 int id bounceEnd 0x7f080067
 int id bounceStart 0x7f080068
+int id btnLogin 0x7f080208
 int id buttonPanel 0x7f080069
 int id cache_measures 0x7f08006a
 int id callMeasure 0x7f08006b
@@ -3839,6 +3840,8 @@ int id enterAlways 0x7f0800b8
 int id enterAlwaysCollapsed 0x7f0800b9
 int id entireSpace 0x7f0800ba
 int id escape 0x7f0800bb
+int id etEmail 0x7f080209
+int id etPassword 0x7f08020a
 int id exitUntilCollapsed 0x7f0800bc
 int id expand_activities_button 0x7f0800bd
 int id expanded_menu 0x7f0800be
@@ -4147,6 +4150,7 @@ int id transition_position 0x7f0801ec
 int id transition_scene_layoutid_cache 0x7f0801ed
 int id transition_transform 0x7f0801ee
 int id triangle 0x7f0801ef
+int id tvRegister 0x7f08020b
 int id unchecked 0x7f0801f0
 int id uniform 0x7f0801f1
 int id unlabeled 0x7f0801f2

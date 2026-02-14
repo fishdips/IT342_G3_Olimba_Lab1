@@ -3757,6 +3757,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnLogin
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3840,6 +3841,8 @@ id enterAlways
 id enterAlwaysCollapsed
 id entireSpace
 id escape
+id etEmail
+id etPassword
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -4148,6 +4151,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvRegister
 id unchecked
 id uniform
 id unlabeled

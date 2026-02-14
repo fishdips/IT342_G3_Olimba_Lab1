@@ -4,7 +4,11 @@ color black
 color white
 drawable ic_launcher_background
 drawable ic_launcher_foreground
+id btnLogin
+id etEmail
+id etPassword
 id main
+id tvRegister
 layout activity_login
 layout activity_main
 mipmap ic_launcher
