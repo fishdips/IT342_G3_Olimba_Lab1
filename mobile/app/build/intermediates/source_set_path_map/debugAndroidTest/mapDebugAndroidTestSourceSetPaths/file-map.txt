@@ -1,0 +1,6 @@
+com.example.miniapp.test.app-tracing-1.2.0-0 C:\Users\L13Y12W31\.gradle\caches\transforms-3\1a2fa84822aa06ddde020aa8234c2c4c\transformed\tracing-1.2.0\res
+com.example.miniapp.test.app-core-1.7.0-1 C:\Users\L13Y12W31\.gradle\caches\transforms-3\8fa58daea9dfb0a48c2432236c68b36d\transformed\core-1.7.0\res
+com.example.miniapp.test.app-androidTest-2 D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\generated\res\resValues\androidTest\debug
+com.example.miniapp.test.app-mergeDebugAndroidTestResources-3 D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.miniapp.test.app-mergeDebugAndroidTestResources-4 D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.miniapp.test.app-debugAndroidTest-5 D:\IT342_Olimba_Files\IT342_G3_Olimba_Lab1\mobile\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
