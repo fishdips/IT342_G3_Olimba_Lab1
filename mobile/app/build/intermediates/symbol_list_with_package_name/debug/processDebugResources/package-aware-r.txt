@@ -3757,7 +3757,11 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnBack
 id btnLogin
+id btnLogout
+id btnProfile
+id btnRegister
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3842,7 +3846,10 @@ id enterAlwaysCollapsed
 id entireSpace
 id escape
 id etEmail
+id etName
 id etPassword
+id etRegisterEmail
+id etRegisterPassword
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -3907,7 +3914,6 @@ id linear
 id listMode
 id list_item
 id m3_side_sheet
-id main
 id marquee
 id masked
 id match_constraint
@@ -4151,6 +4157,9 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvLoginLink
+id tvProfileEmail
+id tvProfileName
 id tvRegister
 id unchecked
 id uniform
@@ -4295,6 +4304,8 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_login
 layout activity_main
+layout activity_profile
+layout activity_register
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog

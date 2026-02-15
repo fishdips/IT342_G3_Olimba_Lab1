@@ -8,7 +8,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.textfield.TextInputEditText
 
-class LoginActivity : AppCompatActivity() {
+class  LoginActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -30,19 +30,13 @@ class LoginActivity : AppCompatActivity() {
             }
         }
 
-//        // 3. Register Button Logic (Navigation)
-//        tvRegister.setOnClickListener {
-//            // Navigate to RegisterActivity
-//            val intent = Intent(this, RegisterActivity::class.java)
-//            startActivity(intent)
-//        }
+        tvRegister.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun performLogin(email: String, pass: String) {
-        // Temporary placeholder to show it works
         Toast.makeText(this, "Attempting login for: $email", Toast.LENGTH_SHORT).show()
-
-        // Next Step: We will use Retrofit here to send 'email' and 'pass'
-        // to your Spring Boot endpoint (http://10.0.2.2:8080/api/login)
     }
 }
